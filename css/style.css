@@ -10,7 +10,51 @@
   src: url('fonts/fontawesome-webfont.svg') format('svg'),
   src: url('fonts/fontawesome-webfont.eot') format('eot');
 }
-            body {
-             font-family: 'Lato-Hairline';
-             font-weight: 600;
-            }
+
+body {
+  font-family: 'Lato-Hairline';
+  font-weight: 600;
+  }
+
+.categoryImg {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #000;
+}
+.categoryImg.first {
+  background: url(../img/computer-modal.jpg);
+      background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.categoryImg.second {
+  background: url(../img/coock.jpg);
+      background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.categoryImg.third {
+    background: url(../img/cozyHouus.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.categoryImg:hover {
+ -webkit-box-shadow: inset -2px 3px 17px 0px rgba(0,0,0,0.7);
+-moz-box-shadow: inset -2px 3px 17px 0px rgba(0,0,0,0.7);
+box-shadow: inset -2px 3px 17px 0px rgba(0,0,0,0.7);
+}
+.categoryImg h1 {
+  color: white;
+  background: #000;
+  opacity: 0.5;
+}
+
+.desk a:hover {
+  text-decoration: none;
+}
