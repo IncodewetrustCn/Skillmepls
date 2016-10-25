@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Lato-Hairline';
+  src: url('../fonts/Lato-Hairline.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Font-Awesome';
+  src: url('fonts/fontawesome-webfont.ttf') format('truetype'),
+  src: url('fonts/fontawesome-webfont.woff') format('woff'),
+  src: url('fonts/fontawesome-webfont.woff2') format('woff2'),
+  src: url('fonts/fontawesome-webfont.svg') format('svg'),
+  src: url('fonts/fontawesome-webfont.eot') format('eot');
+}
+            body {
+             font-family: 'Lato-Hairline';
+             font-weight: 600;
+            }
