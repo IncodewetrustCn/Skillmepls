@@ -14,8 +14,44 @@
 body {
   font-family: 'Lato-Hairline';
   font-weight: 600;
+  background: whitesmoke;
   }
 
+input.form-control.my_search {
+      width: 50vw;
+}
+button.search {
+  width: 50px;
+  height: 50px;
+  color: #2196f3;
+  font-size: 1.8em;
+  background: #fff;
+  box-shadow: none;
+  border: none;
+}
+
+button.search:hover {
+  color: #2196f3;
+  font-size: 2.2em;
+  transition: all 0.2s;
+}
+button.search:focus {
+  border: none;
+  color: #2196f3;
+  font-size: 2.2em;
+  transition: all 0.2s;
+}
+button.search:active {
+  border: none;
+  box-shadow: none;
+  color: #2196f3;
+  font-size: 2.2em;
+  transition: all 0.2s;
+}
+
+form.search-area {
+  margin: 0;
+}
 .categoryImg {
     width: 100%;
     height: 200px;
@@ -23,7 +59,7 @@ body {
     padding-top: 50px;
     margin: 20px 0;
     border-radius: 5px;
-    box-shadow: 2px 2px 4px #000;
+    box-shadow: 2px 2px 4px #000; 
 }
 .categoryImg.first {
   background: url(../img/computer-modal.jpg);
@@ -45,16 +81,30 @@ body {
 }
 
 .categoryImg:hover {
- -webkit-box-shadow: inset -2px 3px 17px 0px rgba(0,0,0,0.7);
--moz-box-shadow: inset -2px 3px 17px 0px rgba(0,0,0,0.7);
-box-shadow: inset -2px 3px 17px 0px rgba(0,0,0,0.7);
+ box-shadow: 2px 2px 1px #2196f3;
 }
+
 .categoryImg h1 {
   color: white;
   background: #000;
   opacity: 0.5;
+  font-size: 3.8em;
+  padding-bottom: 5px;
 }
 
 .desk a:hover {
   text-decoration: none;
+}
+
+ .headSerch{
+              width: 350px;
+            }
+
+.footer {
+  text-align: center;
+  height: 100px;
+}
+
+.footer hr {
+  border-top: 1px solid  #bbbbbb;
 }
