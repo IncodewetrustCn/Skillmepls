@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> <!--_header.html-->
   <meta charset="UTF-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
@@ -12,12 +12,13 @@
   <link href="css/font-awesome.min.css" rel="stylesheet"/>
   <!--Styles-->
   <link href="css/style.css" rel="stylesheet"/>
-</head>
+  
+</head> <!-- end of _header.html-->
 <body>
 
    <div class="container">
 
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default"> <!--_nav.html-->
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -41,21 +42,90 @@
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> <!-- end of _nav.html-->
 
-    <div class="contant">
-      
-    </div> 
+    <div class="contant"> 
+
+      <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
+        <div class="profile-nav left">
+        <div class="clearfix"></div>
+          <ul class="nav nav-pills nav-stacked">
+            <li class="active"><a href="#">My Score</a></li>
+            <li><a href="#">My Folders</a></li>
+            <li><a href="#">My Favorite</a></li>
+            <li><a href="#">Last Watch</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-8 col-lg-8 col-sm-8 col-xs-8">
+        <div class="profile-nav">
+          <div class="cover-img">
+            <div class="profile-inf">
+              <div class="profile-img"></div>
+              <p>Varvara Terkina</p>
+            </div>
+            <div class="visitors"><i class="fa fa-eye" aria-hidden="true"></i>124</div>
+          </div>
+
+          <div class="profile-contant">
+
+            <div class="container-fluid">
+              <div id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="card">
+                  <div class="card-header" role="tab" id="headingOne">
+                    <h5 class="mb-0">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Collapsible Group Item #1
+                      </a>
+                    </h5>
+                  </div>
+
+                  <div id="collapseOne" class="collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="card-block">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" role="tab" id="headingTwo">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Collapsible Group Item #2
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="card-block">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div> 
+          </div>
+          <ul class="pagination pagination-sm profile-pagination">
+                <li class="disabled"><a href="#">&laquo;</a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">&raquo;</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="clearfix"></div> 
   
-    <div class="footer">
+    <div class="footer"> <!-- _footer.html -->
       <hr>
       <h4>Fortis Consult Group</h4>
-    </div>
+    </div> <!-- end of _footer.html-->
 
   </div> <!-- end container-->
 
 </body>
-  <script src="js/jquery.js"></script>
+  <!-- _script.html-->
+  <script src="js/jquery.js"></script> 
   <script src="js/bootstrap.min.js"></script>
 </html>
 
