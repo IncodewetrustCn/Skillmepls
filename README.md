@@ -1,2 +1,1 @@
-# Skillmepls
-Skill me pls repo for Hackaton 
+# A static angularjs based blog application.

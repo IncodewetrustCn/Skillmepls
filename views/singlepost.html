@@ -1,0 +1,46 @@
+
+
+<div class="container singlepost">
+  <div class="row">
+      <div class="col-md-8">
+        <div class="card">
+          <img class="card-img-top" src="{{post.thumbnail_images.full.url }}" alt="Card image cap">
+          <div class="card-block">
+              <h2>{{post.title}}</h2>
+            {{post.content | limitHtml}}</div>
+        </div>
+        <div class="media" ng-repeat="comment in post.comments">
+          <a class="media-left" href="#">
+          </a>
+          <div class="media-body">
+              <img ng-src="{{comment.user_gravatar}}">
+            <h4 class="media-heading">{{comment.post.id}}{{comment.name}}</h4>
+              <p>
+                {{comment.content | limitHtml}}
+              </p>
+            <cite>{{comment.date}}</cite>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="event-info">
+          <div class="event-info-header">
+            <h2><i class="fa fa-info-circle"></i>Event info</h2>
+          </div>
+          <div class="event-info-block">
+            <ul>
+              <li><i class="fa fa-location-arrow"></i>{{post.custom_fields.events_place | limitHtml}}</li>
+              <li><i class="fa fa-info-circle"></i>{{post.custom_fields.events_type | limitHtml}}</li>
+              <li><i class="fa fa-calendar"></i>{{post.custom_fields.events_data | limitHtml}}</li>
+              <li><i class="fa fa-clock-o"></i>{{post.custom_fields.events_time | limitHtml}}</li>
+            </ul>
+          </div>
+
+        </div>
+
+
+      </div>
+  </div>
+
+</div>

@@ -1,0 +1,20 @@
+  	<div class="col-md-4  col-sm-4 col-xs-12 desk" ng-repeat="space in singlePosts">
+          <div class="row">
+            <ul class="grid cs-style-1 animated slideInUp">
+              <li>
+                <figure>
+                <a href="/#/Video/{{space.id}}">
+                  <div><img src="http://skillmepls.incodewetrust.ru/wp-content/uploads/{{space.better_featured_image.media_details.file}}" alt="" style="width:100%"></div>
+                  <figcaption>
+                    <a href="/#/Video/{{space.id}}">
+                      {{space.title.rendered}}  
+                    </a>
+                    <h2>LEVEL {{space.acf.level_}}</h2>
+                  </figcaption>
+					</a>
+                </figure>
+              </li>
+            </ul>
+          </div>
+        </div>
+

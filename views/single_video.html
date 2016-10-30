@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Bootstrap 101 Template</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="css/bootstrap.css" rel="stylesheet"/>
+  <!--fontawesome-->
+  <link href="css/font-awesome.css" rel="stylesheet"/>
+  <link href="css/font-awesome.min.css" rel="stylesheet"/>
+  <!--Styles-->
+  <link href="css/style.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/component.css">
+  <link rel="stylesheet" href="css/default.css">
+  
+</head> <!-- end of _header.html-->
+<body>
+
+   <div class="container"> <!--_nav.html-->
+
+ <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <form class="navbar-form navbar-left search-area" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control my_search" placeholder="Search">
+            </div>
+            <button type="submit" class="search">
+              <i type="submit" class="fa fa-search" aria-hidden="true"></i>
+            </button>
+          </form>
+            <div id="wrapper">
+        <div class="overlay"></div>
+    
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">SKILLmePLS</a>
+                </li>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Events</a>
+                </li>
+                <li>
+                    <a href="#">Team</a>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-header">Dropdown heading</li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/maridlcrmn">Follow me</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+          <span class="hamb-middle"></span>
+        <span class="hamb-bottom"></span>
+            </button>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+        </div>
+
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 1px;">
+  
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="navbar-brand" href="#">SKILLmePLS</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<div class="contant">
+  <div class="row">
+      <div class="col-md-8 col-sm-8 col-xs-12">
+        <div class="list-group">
+         <div class="video">
+         <video loop="loop" muted="" id="myVideo" style="width:100%;" autoplay="autoplay" controls="true">
+            <input type="button" value="Play">
+            <source src="http://hannation.cn/wp-content/uploads/2016/Video/main page 2.mp4" type="video/mp4">
+        </video>
+          <ul class="nav nav-pills">
+            <li><a href="#"><i class="fa fa-heart"></i><span class="badge">42</span></a></li>
+            <li><a href="#">Views<span class="badge">3</span></a></li>
+          </ul>
+        </div>
+           <div class="description">
+            <a href="#" class="list-group-item">
+              <h4 class="list-group-item-heading">DESCRIPTION</h4>
+              <p class="list-group-item-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore assumenda qui dolorem sint architecto, exercitationem non similique reiciendis. Cupiditate hic ex, deserunt minima unde incidunt officia eligendi molestiae sequi fuga blanditiis nemo dolor, doloremque provident, harum, aperiam nostrum praesentium debitis nam vitae. Veritatis tenetur quis minus esse minima maiores est.
+              </p>
+            </a>
+          </div>
+        </div>
+      <div class="comments">
+      <ul class="media-list"> 
+        <li class="media"> 
+          <a class="media-left" href="#"> 
+            <img class="comment-img" src="img/profile-img.jpg" alt="Generic placeholder image"> 
+          </a> 
+          <div class="media-body"> 
+            <h4 class="media-heading">Media heading</h4> 
+          <p>A short sentence to save some space in the code sample</p> 
+          </div> 
+        </li> 
+        <li class="media"> 
+          <a class="media-left" href="#"> 
+            <img class="comment-img" src="img/profile-img.jpg" alt="Generic placeholder image"> 
+          </a> 
+          <div class="media-body"> 
+            <h4 class="media-heading">Media heading</h4> 
+          <p>A short sentence to save some space in the code sample</p> 
+        </div> 
+        </li> 
+      </ul>
+        <form class="form-horizontal">
+        <fieldset>
+          <div class="form-group">
+            <label for="textArea" class="col-lg-2 control-label"><img class="comment-img" src="img/profile-img.jpg" alt=""></label>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+              <textarea class="form-control" rows="3" id="textArea" rows="3"></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2 col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2 col-xs-12">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-4 col-xs-12">
+      <div class="panel panel-warning playlist">
+        <div class="panel-heading">
+          <h3 class="panel-title">Panel warning</h3>
+        </div>
+            <div class="list-group">
+          <a href="#" class="list-group-item active">
+          <i class="fa fa-play"></i>
+             <span class="badge">5:15</span>
+            Cras justo odio
+          </a>
+
+          <a href="#" class="list-group-item">
+             <span class="badge">15:02</span>
+          Dapibus ac facilisis in
+          </a>
+
+          <a href="#" class="list-group-item">
+             <span class="badge">8:34</span>
+          Morbi leo risus
+          </a>
+        </div>
+     </div>
+      <div class="recomended_by">
+        <div class="panel panel-success">
+          <div class="panel-heading">
+            <h3 class="panel-title">RECOMENDED BY Ararat</h3>
+          </div>
+          <div class="panel-body">
+              Author: SORAX
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-info also_watch">
+        <div class="panel-heading">
+          <h3 class="panel-title">Panel warning</h3>
+        </div>
+        <div class="list-group">
+          <a href="#" class="list-group-item">
+            <img src="img/play.png">
+            <p>Morbi leo risus</p>
+            <p class="list-group-item-text author">Katya Kayashova</p>
+          </a>
+
+          <a href="#" class="list-group-item">
+             <img src="img/play.png">
+              <p>Morbi leo risus</p>
+            <p class="list-group-item-text author">Ararat Martirosyan</p>
+          </a>
+
+          <a href="#" class="list-group-item">
+           <img src="img/play.png">
+             <p>Morbi leo risus</p>
+          <p class="list-group-item-text author">Timur Sapekov</p>
+          </a>
+      </div>
+     </div>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+<!-- _script.html-->
+<div class="footer"> <!-- _footer.html -->
+      <hr>
+      <h4>Fortis Consult Group</h4>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/toucheffects.js"></script>
+
+      <script type="text/javascript">
+          $(document).ready(function () {
+        var trigger = $('.hamburger'),
+            overlay = $('.overlay'),
+           isClosed = false;
+
+          trigger.click(function () {
+            hamburger_cross();      
+          });
+
+          function hamburger_cross() {
+
+            if (isClosed == true) {          
+              overlay.hide();
+              trigger.removeClass('is-open');
+              trigger.addClass('is-closed');
+              isClosed = false;
+            } else {   
+              overlay.show();
+              trigger.removeClass('is-closed');
+              trigger.addClass('is-open');
+              isClosed = true;
+            }
+        }
+        
+        $('[data-toggle="offcanvas"]').click(function () {
+              $('#wrapper').toggleClass('toggled');
+        });  
+      });
+  </script>
+  </div>
+</html>
+
